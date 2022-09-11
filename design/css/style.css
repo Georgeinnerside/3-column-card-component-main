@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+:root {
+    --primary-color1: hsl(31, 77%, 52%);
+    --primary-color2: hsl(184, 100%, 22%);
+    --primary-color3: hsl(179, 100%, 13%);
+    --neutral-color1: hsla(0, 0%, 100%, 0.75);
+    --neutral-color2: hsl(0, 0%, 95%)
+}
+
+@font-family: 'Big Shoulders Display', cursive;
+@font-family: 'Lexend Deca', sans-serif;
+
+body {
+    background-color: hsla(0, 0%, 100%, 0.75);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: visible;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    padding: 5px; 
+}
+
+
+
+.box1 {
+   background-color: hsl(31, 77%, 52%); 
+   padding: 5px;
+   color: hsla(0, 0%, 100%, 0.75);
+   border-radius: 10px 0 0 10px;
+}
+.box2 {
+   background-color: hsl(184, 100%, 22%); 
+   padding: 5px;
+   color: hsla(0, 0%, 100%, 0.75);
+}
+.box3 {
+   background-color: hsl(179, 100%, 13%); 
+   padding: 5px;
+   color: hsla(0, 0%, 100%, 0.75);
+   border-radius: 0 10px 10px 0;
+}
+
+h1 {
+    color:hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+div .description1 {
+    width: 150px;
+    text-align: start;
+    line-height: 1.5rem;
+    padding: 50px;
+}
+
+.sedans {
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.box1 h1 {
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.btn1 {
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+}
+
+div .description2 {
+    width: 150px;
+    text-align: start;
+    line-height: 1.5rem;
+    padding: 50px; 
+}
+
+.suv {
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.box2 h1 {
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.btn2 {
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+}
+
+div .description3 {
+    width: 150px;
+    text-align: start;
+    line-height: 1.5rem;
+    padding: 50px;
+}
+
+.luxury {
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.box3 h1 {
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.btn3 {
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+}
+
+@media  screen and (max-width:524px) {
+    
+.container {
+    display: block;
+    width: 40vw;
+    height: 100vh;
+    padding: 5px;
+    
+}
+.box1 {
+    background-color: hsl(31, 77%, 52%); 
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+    color: hsla(0, 0%, 100%, 0.75);
+ }
+ .sedans {
+    width: 30px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+.box1 h1 {
+    font-size: 16px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+ 
+div .description1 {
+    font-size: 10px;
+    width: 150px;
+    line-height: 1rem;
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+    text-align: start;
+    padding: 50px;
+}
+
+.btn1 {
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    background-color:#fff ;
+    font-size: 11px;
+    color: hsl(31, 77%, 52%);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+ .box2 {
+    background-color: hsl(184, 100%, 22%); 
+    padding: 5px;
+ } 
+
+ .suv {
+    width: 30px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+
+.box2 h1 {
+    font-size: 16px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+div .description2 {
+    font-size: 10px;
+    width: 120px;
+    line-height: 1rem;
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+    text-align: start;
+    padding: 50px;
+}
+
+.btn2 {
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.box2 a {
+    text-decoration: none;
+    background-color:#fff ;
+    font-size: 11px;
+    color: hsl(184, 100%, 22%);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+ .box3 {
+    background-color: hsl(179, 100%, 13%); 
+    color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 0 0 10px 10px;
+ }
+
+ .luxury {
+    width: 30px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+ }
+
+ .box3 h1 {
+    font-size: 16px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+ }
+
+ div .description3 {
+    font-size: 10px;
+    width: 120px;
+    line-height: 1rem;
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+    text-align: start;
+    padding: 50px;
+ }
+ .btn3 {
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.box3 a {
+    text-decoration: none;
+    background-color:#fff ;
+    font-size: 11px;
+    color: hsl(179, 100%, 13%);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+}
+
